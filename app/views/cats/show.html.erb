@@ -1,0 +1,10 @@
+<h1><%= @cat.name %></h1>
+
+<table>
+  <% @cat.attributes.each do |key, value| %>
+  <tr> <%= key %> </tr>
+</table>
+
+<br>
+<br>
+<%= link_to "Back", :back %>

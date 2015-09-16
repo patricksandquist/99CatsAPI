@@ -4,7 +4,6 @@ class CatRentalRequestsController < ApplicationController
     render text: "INDEX"
   end
 
-
   def new
     @cat_rental_request = CatRentalRequest.new
     @cat_rental_request.cat_id = params[:cat_id]
